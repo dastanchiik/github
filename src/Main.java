@@ -3,9 +3,9 @@ public class Main {
         Curse curse = new Curse();
         curse.setName("IT.KG");
         curse.setNumber(43);
-        curse.setNameTeacher("Azamat Muratov");
+        curse.setNameTeacher("Azamat Muratov and Elmir Alisherov");
         curse.setStartDay("10 October");
-        System.out.println(curse.getName()+"\n"+curse.getNumber()+"\n"+curse.getNameTeacher()+"\n"+curse.getStartDay());
+        System.out.println("Name course: "+curse.getName()+"\n"+"Number course: "+curse.getNumber()+"\n"+"Name teachers: "+curse.getNameTeacher()+"\n"+"Start day: "+curse.getStartDay());
         Student student = new Student();
         student.setName("Sanjar ");
         student.setLastName("Kaliev");
